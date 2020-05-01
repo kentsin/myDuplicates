@@ -14,6 +14,7 @@ var (
 func main() {
 	flag.StringVar(&filenameMatch, "name", "*", "filename pattern")
 	flag.BoolVar(&singleThread, "single thread", false, "use single thread only")
+	var help = flag.Bool("h", false, "Display this message")
 	flag.Parse()
 	if *help {
 		fmt.Println("\nduplicates is a command line tool to find duplicate files in a folder\n")
