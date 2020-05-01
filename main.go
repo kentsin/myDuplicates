@@ -1,11 +1,10 @@
 package main
 
-import (
-    "fmt"
-    "flag"
+var (
+	singleThread  bool   = false
+	filenameMatch string = "*"
 )
 
-func main(){
+func main() {
 
-    exit 0
 }
