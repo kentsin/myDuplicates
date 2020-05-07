@@ -22,4 +22,5 @@ func main() {
 		flag.PrintDefaults()
 		os.Exit(0)
 	}
+	fmt.printf("Using %d of threads", singleThread)
 }
