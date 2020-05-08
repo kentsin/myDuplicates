@@ -1,7 +1,9 @@
 package main
 
+import flag "github.com/spf13/pflag"
+
 import (
-	"flag"
+	
 	"fmt"
 	"os"
 )
