@@ -7,3 +7,4 @@ following https://github.com/mathieuancelin/duplicates and https://github.com/ka
         manually open the folder with file explorer temporarly solve it 
         using ssh copy ssh-key to github then re-clone it with ssh
 2. flag -- trying to learn flag package 
+        try to compare various flag packages : https://github.com/karrick/golf ; https://github.com/spf13/pflag
